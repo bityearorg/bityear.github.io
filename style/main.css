@@ -5,6 +5,7 @@ html {
 }
 body {
 	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
 }
 main {
 	display: block;
@@ -67,7 +68,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: inherit; /* 1 */
+	font-family: Helvetica, Arial, sans-serif; /* 1 */
 	font-size: 100%; /* 1 */
 	line-height: 1.15; /* 1 */
 	margin: 0; /* 2 */
@@ -154,6 +155,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: auto;
+	font-family: Helvetica, Arial, sans-serif;
 }
 body #page {
 	background: -moz-linear-gradient(top,  #04A2FF 0%, #04A2FF 100%); /* FF3.6-15 */
@@ -174,7 +176,7 @@ a:active {
 }
 /*-------------------------------------------FONTS---------------------------------------------*/
 @font-face {
-	font-family: 'helvetica';
+	font-family: 'Helvetica, Arial, sans-serif';
 	src: url('../fonts/helvetica.eot');
 	src: url('../fonts/helvetica.woff') format('woff'), url('../fonts/helvetica.ttf') format('truetype'), url('../fonts/helvetica.svg') format('svg');
 }
@@ -217,7 +219,7 @@ a:active {
 #header div ul li a {
 	color: #01E81A;
 	display: inline-block;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 68px;
@@ -269,7 +271,7 @@ a:active {
 	background-color: #04A2FF;
 	color: #ffffff;
 	display: inline-block;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 60px;
@@ -316,7 +318,7 @@ a:active {
 	line-height: 0px;
 }
 .advertise {
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	display: block;
 	text-align: center;
@@ -330,21 +332,36 @@ a:active {
 }
 #content h3{
 	color: #FFFFFF;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 }
 #global {
 	background-color: #03286d;
 	margin: 0 auto;
-	max-width: 950px;
-	padding: 12px;
+	max-width: 940px;
+	padding: 10px 25px;
 	border-radius: 15px;
 }
 .term {
+	color: #01E81A;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	max-width: 950px;
+	padding: 25px 0px 0px 0px;
+	border-radius: 15px;
+	font-size: 18px;
+}
+.term a {
+	color: #01E81A;
+}
+.term a:hover {
+	color: #FFF304;
+}
+.termtxt {
 	background-color: #FFFFFF;
 	color: #000000;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 0 auto;
 	max-width: 950px;
 	padding: 20px;
@@ -354,11 +371,11 @@ a:active {
 	display: inline-block;
 	overflow: visible;
 	color: #ffffff;
-	font-family: helvetica;
-	font-size: 38px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 30px;
 	font-weight: normal;
 	vertical-align: middle;
-	margin: 10px 0px 5px 0px;
+	margin: 5px 0px 5px 0px;
 }
 #global a.more {
 	font-size: 28px;
@@ -372,12 +389,12 @@ a:active {
 	padding: 5px 0px;
 	line-height: 30px;
 	color: #ffffff;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 }
 #global a {
 	color: #01E81A;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 }
 #global a:hover {
@@ -388,7 +405,7 @@ a:active {
 .wallet {
 	list-style-type: none;
 	color: #000000 !important;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	background-color: #FFFFFF;
 	padding: 5px 0px;
 	font-size: 15px;
@@ -397,11 +414,10 @@ a:active {
 }
 .wallet li {
 	list-style-type: none;
-	padding: 0px 0px 10px 0px !important;
+	padding: 0px 0px 10px 5px !important;
 	margin: 0px;
 }
 .wallet ul {
-
 	padding: 0px 0px 0px 5px;
 }
 /*----------------------------------------content-notice-styles---------------------------------------*/
@@ -409,13 +425,13 @@ a:active {
 .notice ul {
 	list-style-type: none;
 	color: #000000 !important;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 }
 .notice {
 	color: #000000 !important;
 	background-color: #ffffff;
 	padding: 15px !important;
-	font-family: helvetica !important;
+	font-family: Helvetica, Arial, sans-serif !important;
 	max-width: auto;
 }
 .notice li {
@@ -426,14 +442,14 @@ a:active {
 	padding: 0px 0px 20px 0px !important;
 	color: #000000 !important;
 	font-size: 15px;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 }
 .dev {
 	padding: 20px 0px 10px 10px !important;
 	color: #ffffff !important;
-	font-family: helvetica !important;
+	font-family: Helvetica, Arial, sans-serif !important;
 }
-.term li {
+.termtxt li {
 	list-style: upper-roman;
 	padding: 12px 0px;
 	line-height: 25px;
@@ -453,7 +469,7 @@ a:active {
 	color: #000000 !important;
 	padding: 0px;
 	margin: 15px 0px 0px 10px;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 19px;
 }
 /*---------------------------------------- content-contact-styles---------------------------------------*/
@@ -467,7 +483,7 @@ a:active {
 #global.contactm {
 	margin: 30px auto;
 	background-color: #ffffff;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	border-radius: 0px;
 	color: #000000;
 	max-width: 965px;
@@ -501,7 +517,7 @@ a:active {
 }
 #global.contactm ul {
 	list-style-type: square;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 20px;
@@ -509,7 +525,7 @@ a:active {
 	width: auto;
 }
 #global.contactm p {
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	color: #000;
 	font-size: 16px;
 	font-weight: normal;
@@ -542,7 +558,7 @@ a:active {
 	display: block;
 	overflow: visible;
 	color: #FFFFFF;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 40px;
 	font-size: 40px;
@@ -552,13 +568,13 @@ a:active {
 	font-size: 28px;
 	overflow: visible;
 	color: #FFFFFF;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 40px;
 }
 .about ul {
 	color: #FFFFFF;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 }
 /*----------------------------------------wallets-styles---------------------------------------*/
@@ -566,7 +582,7 @@ a:active {
 	border: solid 1px #ffffff;
 	padding: 5px;
 	max-width: 935 px;
-	margin: 0px 0px 5px 0;
+	margin: 10px 0px 15px 0;
 	float: auto;
 	height: auto;
 }
@@ -580,7 +596,7 @@ a:active {
 .outcome {
 	list-style-type:decimal;
 	color: #ffffff;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 25px;
@@ -591,7 +607,7 @@ a:active {
 	width: auto;
 	padding: 20px;
 	color: #000000;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 35px 0px;
 }
 #value p {
@@ -604,7 +620,7 @@ a:active {
 }
 .article p {
 	color: #000000;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	padding: 10px 20px 0px 20px;
@@ -617,7 +633,7 @@ a:active {
 }
 .atitle h2 {
 	color: #ff670f;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 	margin: 0 0 44px;
@@ -628,7 +644,7 @@ a:active {
 section.read h3 {
 	color: #A3A3A3;
 	float: left;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 23px;
 	font-weight: normal;
 	line-height: 23px;
@@ -675,8 +691,8 @@ section.read ul li a img {
 	width: 100%;
 	text-align: center;
 	position: fixed;
-	background-color: black;
-	color: white;
+	background-color: #000000;
+	color: #ffffff;
 	left: 0px;
 	top: 0px;
 }
@@ -691,7 +707,7 @@ section.read ul li a img {
 #fcontent {
 	background-color: #ffffff;
 	color: #000000;
-	font-family: 'helvetica';
+	font-family: Helvetica, Arial, sans-serif;
 	margin: 0px auto;
 	padding: 10px;
 	width: auto;
@@ -703,11 +719,12 @@ section.read ul li a img {
 	padding: 0px 25px 0px 25px;
 }
 #fcontent h1 {
-	font-size: 28px;
+	font-size: 25px;
 	display: inline-block;
 	float: left;
-	width: 40%;
+	width: 100%;
 	font-weight: normal;
+	padding: 0px 0px 0px 20px;
 }
 #fcontent h2 {
 	font-size: 14px;
@@ -736,6 +753,25 @@ section.read ul li a img {
 	margin: 0px 0px 20px 0px;
 	width: 100%;
 }
+.stext {
+	font-size: 12px !important;
+	color: #ffffff;
+	padding: 20px !important;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.search {
+padding: 20px;
+font-size: 18px;
+font-family: Helvetica, Arial, sans-serif;
+}
+.search button {
+	padding: 10px 9px 9px 9px;
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.search input {
+	padding: 6px;
+}
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
 	margin: 0;
@@ -758,7 +794,7 @@ section.read ul li a img {
 	display: inline;
 	color: #FFFFFF;
 	text-align: center;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 23px;
 	font-weight: normal;
 	line-height: 8px;
@@ -790,7 +826,7 @@ section.read ul li a img {
 .footnote div p {
 	color: #000000;
 	display: block;
-	font-family: helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	margin: 0 auto;
